@@ -2,7 +2,7 @@
  /**
   * main - Entry point
   *
-  * Description: 'program that prints exactly \"Programming is like building a multilingual puzzle'
+  * Description: 'program that prints a string'
   *
   * Return: Always 0 (Success)
   */
