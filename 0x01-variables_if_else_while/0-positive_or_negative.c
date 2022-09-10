@@ -3,7 +3,12 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there*/
+/**
+ * main - The entry point of the program
+ *
+ * Return: The function returns integer
+ */
 int main(void)
 {
 	int n;
