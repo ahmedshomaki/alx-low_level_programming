@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	int i , j , z;
+	int i, j, z;
 
 	for (i = 48; i <= 55; i++)
 	{
@@ -26,7 +26,7 @@ int main(void)
 				{
 					putchar(44);
 					putchar(32);
-				}		
+				}
 			}
 		}
 	}
