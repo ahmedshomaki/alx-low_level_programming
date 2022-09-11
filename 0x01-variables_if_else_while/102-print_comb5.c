@@ -15,7 +15,7 @@ int i, j, z, q;
 
 for (i = 48; i <= 57; i++)
 {
-	for (j = 48; j <= 56; j++)
+	for (j = 48; j <= 57; j++)
 	{
 		for (z = i; z <= 57; z++)
 		{
