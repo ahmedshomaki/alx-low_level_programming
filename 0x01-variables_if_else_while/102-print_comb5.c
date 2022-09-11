@@ -21,9 +21,8 @@ for (i = 48; i <= 57; i++)
 		{
 			for (q = j; q <= 57; q++)
 			{
-				if (i == z || j == q)
+				//if (i != z || j == q)
 				{
-					q++;
 					putchar(i);
 					putchar(j);
 					putchar(32);
