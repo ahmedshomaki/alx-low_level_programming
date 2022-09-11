@@ -19,9 +19,9 @@ for (i = 48; i <= 57; i++)
 	{
 		for (z = i; z <= 57; z++)
 		{
-			for (q = j + 1; q <= 57; q++)
+			for (q = j; q <= 57; q++)
 			{
-				/*if (i != z || j != q)*/
+				if (i != z || j != q)
 				{
 					putchar(i);
 					putchar(j);
