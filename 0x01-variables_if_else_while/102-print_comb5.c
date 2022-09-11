@@ -28,7 +28,7 @@ for (i = 48; i <= 57; i++)
 					putchar(32);
 					putchar(z);
 					putchar(q);
-					if (i != 57 || j != 56 || z != 57 || q != 57)
+					/*if (i != 57 || j != 56 || z != 57 || q != 57)*/
 					{
 						putchar(44);
 						putchar(32);
