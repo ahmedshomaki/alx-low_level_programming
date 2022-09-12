@@ -19,11 +19,11 @@ for (i = 48; i <= 57; i++)
 	{
 		for (z = i; z <= 57; z++)
 		{
-			for (q = j; q <= 57; q++)
+			for (q = 48; q <= 57; q++)
 			{
 				if (!(i == z && j == q))
 				{
-					/*if (q - j >= 1)*/
+					if ((z * 10 + q) - (i * 10 + j) >= 1)
 					{
 					putchar(i);
 					putchar(j);
