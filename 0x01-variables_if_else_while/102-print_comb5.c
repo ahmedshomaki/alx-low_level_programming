@@ -21,18 +21,20 @@ for (i = 48; i <= 57; i++)
 		{
 			for (q = j; q <= 57; q++)
 			{
-				if (i == z || j == q)
+				if (!(i == z && j == q))
 				{
-					q++;
-					putchar(i);
-					putchar(j);
-					putchar(32);
-					putchar(z);
-					putchar(q);
-					if (i != 57 || j != 56 || z != 57 || q != 57)
+					if (q - j >= 1)
 					{
-						putchar(44);
+						putchar(i);
+						putchar(j);
 						putchar(32);
+						putchar(z);
+						putchar(q);
+					if (i != 57 || j != 56 || z != 57 || q != 57)
+						{
+							putchar(44);
+							putchar(32);
+						}
 					}
 				}
 			}
