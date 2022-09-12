@@ -23,7 +23,7 @@ for (i = 48; i <= 57; i++)
 			{
 				if (!(i == z && j == q))
 				{
-					if (q - j >= 1)
+					/*if (q - j >= 1)*/
 					{
 					putchar(i);
 					putchar(j);
