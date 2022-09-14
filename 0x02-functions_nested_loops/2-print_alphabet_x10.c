@@ -6,7 +6,7 @@
 * Return: it is void dont return anything
 */
 
-void print_alphabet(void)
+void pprint_alphabet_x10(void)
 {
 	int i,j;
 for (j = 1; j <= 5; j++)
