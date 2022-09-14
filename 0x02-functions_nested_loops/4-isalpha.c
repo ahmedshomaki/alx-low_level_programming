@@ -15,7 +15,7 @@ int _isalpha(int c)
 		{
 		return (1);
 		}
-	}else if (c >= 65)
+	} else if (c >= 65)
 	{
 		if (c <= 90)
 		{
