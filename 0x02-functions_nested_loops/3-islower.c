@@ -2,6 +2,7 @@
 
 /**
 * _islower - the function entry point
+* c : integer containing the asci code 
 *
 * Return: 1 and 0
 */
