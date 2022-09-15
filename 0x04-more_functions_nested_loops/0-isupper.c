@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <ctype.h>
 
 /**
 * _isupper - the function entry point
@@ -11,5 +11,7 @@
 int _isupper(int c)
 {
 	c = isupper(c);
+	if(c != 0)
+		return 1;
 	return (c);
 }
