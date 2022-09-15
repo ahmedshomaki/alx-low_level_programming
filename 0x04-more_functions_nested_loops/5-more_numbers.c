@@ -16,12 +16,12 @@ for (k = 1; k <= 10; k++)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			if(i == 49)
+			if (i == 49)
 			{
 				_putchar(i);
 			}
 			_putchar(j);
-			if(i == 49 && j == 52)
+			if (i == 49 && j == 52)
 			{
 				_putchar('\n');
 				break;
