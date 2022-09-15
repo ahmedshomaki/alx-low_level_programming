@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * _isupper: functioon for uppercase
- * @c integer 
- *
- *Return : 1 or 0
- * */
+* _isupper - the function entry point
+*@c : integer containing the asci code
+*
+* Return: 1 or 0
+*/
 
 int _isupper(int c)
 {
