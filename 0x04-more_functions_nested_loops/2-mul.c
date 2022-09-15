@@ -1,7 +1,7 @@
 
 /**
 * mul - the function entry point
-*@a @b : integers
+*@a@b : integers
 *
 * Return: the multiplication of two numbers
 */
