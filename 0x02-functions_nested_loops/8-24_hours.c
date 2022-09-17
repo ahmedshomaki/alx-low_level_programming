@@ -24,7 +24,7 @@ for (i = '0'; i <= '2'; i++)
 					_putchar(k);
 					_putchar(l);
 					_putchar('\n');
-					if(i == '2' && j == '3' && k == '5' && l == '9')
+					if (i == '2' && j == '3' && k == '5' && l == '9')
 					{
 						return;
 					}
