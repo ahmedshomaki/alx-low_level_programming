@@ -2,15 +2,16 @@
 #include <string.h>
 
 /**
-*_strlen - 
-*@s :
+*_strlen - function for counting letters
+*@s : a char pointer
 *
-*Return : 
+*Return: return integer number of letters
 */
 
 int _strlen(char *s)
 {
 	int a;
+
 	a = strlen(s);
-	return ();
+	return (a);
 }
