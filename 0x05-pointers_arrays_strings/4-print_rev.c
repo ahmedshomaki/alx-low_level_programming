@@ -9,8 +9,14 @@
 
 void print_rev(char *s)
 {
-    int i;
-    for (i = 63; i >= 0; i--)
+    int i = 0;
+
+    while (*(s+i) != '\0')
+    {
+        i++;
+    }
+    i = i - 1;
+    for (i; i >= 0; i--)
     {
         printf("%c",*(s+i));
     }
