@@ -2,35 +2,34 @@
 #include <stdio.h>
 
 /**
-*puts_half - funcition print reverse
-*@str: char variable which is a pointer
-*
-*Return: void function doesnot return any value
-*/
-
+ * puts_half - void
+ *
+ * @str: string
+ *
+ */
 void puts_half(char *str)
 {
-	int i = 0;
-	int j = 0;
+	int len, n, i;
 
-	while (*(str + j) != '\0')
+	len = 0;
+
+	while (str[len] != '\0')
 	{
-		j++;
+		len++;
 	}
-	j--;
-	if (i %  2 == 0)
+
+	if (len % 2 == 0)
 	{
-		for (i = j / 2 ; i <= j - 1; i++)
+		for (i = len / 2; str[i] != '\0'; i++)
 		{
-			printf("%c", *(str + i));
+			_putchar(str[i]);
 		}
-		printf("\n");
-	} else
+	} else if (len % 2)
 	{
-		for (i = (j - 1) / 2; i <= j - 1; i++)
+		for (n = (len - 1) / 2; n < len - 1; n++)
 		{
-			printf("%c", *(str + 1 + i));
+			_putchar(str[n + 1]);
 		}
-		printf("\n");
 	}
+	_putchar('\n');
 }
