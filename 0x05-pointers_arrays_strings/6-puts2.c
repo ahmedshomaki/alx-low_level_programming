@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-*print_rev - funcition print reverse
-*@s: char variable which is a pointer
+*puts2 - funcition print reverse
+*@str: char variable which is a pointer
 *
 *Return: void function doesnot return any value
 */
@@ -18,7 +18,7 @@ void puts2(char *str)
 		j++;
 	}
 	j = j - 1;
-	for (i = 0; i <= j; i+=2)
+	for (i = 0; i <= j; i += 2)
 	{
 		printf("%c", *(str + i));
 	}
