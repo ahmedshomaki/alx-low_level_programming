@@ -8,16 +8,17 @@
 *Return: void function doesnot return any value
 */
 
-void print_rev(char *s)
+void puts2(char *str)
 {
 	int i = 0;
+	int j = 0;
 
-	while (*(s + i) != '\0')
+	while (*(s + j) != '\0')
 	{
-		i++;
+		j++;
 	}
-	i = i - 1;
-	for (i = 0; i <= i; i+=2)
+	j = j - 1;
+	for (i = 0; i <= j; i+=2)
 	{
 		printf("%c", *(s + i));
 	}
