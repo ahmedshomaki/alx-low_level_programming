@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-*void puts_half - funcition print reverse
-*@s: char variable which is a pointer
+*puts_half - funcition print reverse
+*@str: char variable which is a pointer
 *
 *Return: void function doesnot return any value
 */
@@ -19,15 +19,15 @@ void puts_half(char *str)
 	}
 	if (i %  2 == 0)
 	{
-		for (i = j / 2 ; i <= j - 1; i--)
-        	{
-                printf("%c", *(str + i));
-        	}
+		for (i = j / 2 ; i <= j - 1; i++)
+		{
+			printf("%c", *(str + i));
+		}
 		printf("\n");
 
 	} else
 	{
-		for (i = (j - 1) / 2 ; i <= j - 1; i--)
+		for (i = (j - 1) / 2 ; i <= j - 1; i++)
 		{
 			printf("%c", *(str + i));
 		}
