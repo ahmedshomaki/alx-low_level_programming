@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
+*print_rev - funcition print reverse
+*@s: char variable which is a pointer 
 *
-*
-*
+*Return: void function doesnot return any value
 */
 
 void print_rev(char *s)
