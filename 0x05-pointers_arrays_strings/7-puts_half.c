@@ -17,6 +17,7 @@ void puts_half(char *str)
 	{
 		j++;
 	}
+	j--;
 	if (i %  2 == 0)
 	{
 		for (i = j / 2 ; i <= j - 1; i++)
@@ -28,7 +29,7 @@ void puts_half(char *str)
 	{
 		for (i = (j - 1) / 2; i <= j - 1; i++)
 		{
-			printf("%c", *(str + 2 + i));
+			printf("%c", *(str + 1 + i));
 		}
 		printf("\n");
 	}
