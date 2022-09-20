@@ -23,7 +23,7 @@ void puts_half(char *str)
 		{
 			printf("%c", *(str + i));
 		}
-		printf("\n");
+
 
 	} else
 	{
@@ -31,6 +31,6 @@ void puts_half(char *str)
 		{
 			printf("%c", *(str + i));
 		}
-		printf("\n");
+
 	}
 }
