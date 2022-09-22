@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-*_strcat - function of pointers
+*_strncat - function of pointers
 *@dest: pointer to the first string
 *@src: pointer to the second string
 *@n: Integer
