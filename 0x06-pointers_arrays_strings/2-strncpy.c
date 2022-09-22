@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-*_strcat - function of pointers
+*_strncpy - function of pointers
 *@dest: pointer to the first string
 *@src: pointer to the second string
 *@n: Integer
@@ -10,7 +10,7 @@
 *Return: return p which is a pointer
 */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	char *p;
 
