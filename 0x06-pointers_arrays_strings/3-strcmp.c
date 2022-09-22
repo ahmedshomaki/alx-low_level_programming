@@ -9,9 +9,9 @@
 *Return: return p which is a pointer
 */
 
-char *_strncmp(char *s1, char *s2, int n)
+int _strncmp(char *s1, char *s2, int n)
 {
-	char *p;
+	int p;
 
 	p = strcmp(s1, s2);
 	return (p);
