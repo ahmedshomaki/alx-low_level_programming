@@ -1,27 +1,27 @@
 #include "main.h"
 
 /**
-*reverse_array - void function reverse array
-*@a: integer pointer
-*@n: integer number that holds array size
-*
-*Return: void do not return any value
-*/
+ * reverse_array - reverse
+ * @a : pointer to int params
+ * @n : pointer to int params
+ * Return: no
+ */
+
 void reverse_array(int *a, int n)
 {
-	int b[1000];
-	int i , j;
+	int i;
+	int j;
+	int tmp;
 
+	i = 0;
 	j = n - 1;
-	for (i = 0; i < n; i++)
+
+	while (i < j)
 	{
-		b[i] = *(a + j);
+		tmp = a[i];
+		a[i] = a[j];
+		a[j] = tmp;
+		i++;
 		j--;
-	}
-	j = 0;
-	for (i = 0; i < n; i++)
-	{
-		*(a + j) = b[i];
-		j++; 
 	}
 }
