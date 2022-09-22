@@ -9,10 +9,7 @@
 
 char *string_toupper(char *n)
 {
-        char b[1000];
-        int i = 0 , j = 0;
-
-        while (*n != '\0')
+ while (*n != '\0')
         {
                 if (*n > 90)
                 {
