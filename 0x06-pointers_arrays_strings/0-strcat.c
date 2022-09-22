@@ -3,10 +3,10 @@
 
 /**
 *_strcat - function of pointers
-*@dest:
-*@src:
+*@dest: pointer to the first string
+*@src: pointer to the second string
 *
-*Return: return p which is
+*Return: return p which is a pointer
 */
 
 char *_strcat(char *dest, char *src)
