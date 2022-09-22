@@ -11,7 +11,7 @@ char *string_toupper(char *n)
 {
 	while (*n != '\0')
 	{
-		if (*n >= 97 && *n <= 122)
+		if (*n >= 'a' && *n <= 'z')
 		{
 			*n = *n - 32;
 		}
