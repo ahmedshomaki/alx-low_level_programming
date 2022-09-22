@@ -2,18 +2,17 @@
 #include <string.h>
 
 /**
-*_strcat - function of pointers
-*@dest: pointer to the first string
-*@src: pointer to the second string
-*@n: Integer
+*_strcmp - function of pointers
+*@s1: pointer to the first string
+*@s2: pointer to the second string
 *
 *Return: return p which is a pointer
 */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncmp(char *s1, char *s2, int n)
 {
 	char *p;
 
-	p = strncat(dest, src, n);
+	p = strcmp(s1, s2);
 	return (p);
 }
