@@ -4,7 +4,7 @@
 *string_toupper - char function
 *@n: n is a char variable
 *
-*Return: it returns a pointer
+*Return: it returns a pointer i
 */
 
 char *string_toupper(char *n)
