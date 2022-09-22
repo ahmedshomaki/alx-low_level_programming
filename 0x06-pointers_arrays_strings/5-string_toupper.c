@@ -9,14 +9,13 @@
 
 char *string_toupper(char *n)
 {
- while (*n != '\0')
-        {
-                if (*n > 90)
-                {
-                        *n = *n - 32;
-                }
-                n++;    
-        }
-
-return (n-1);
+	while (*n != '\0')
+	{
+		if (*n > 90)
+		{
+			*n = *n - 32;
+		}
+		n++;
+	}
+	return (n - 1);
 }
