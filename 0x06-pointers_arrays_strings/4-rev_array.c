@@ -7,7 +7,6 @@
 *
 *Return: void do not return any value
 */
-
 void reverse_array(int *a, int n)
 {
 	int b[10000];
